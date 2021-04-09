@@ -21,6 +21,7 @@ class BlogsController < ApplicationController
   end
 
   def edit
+    @blog = Blof.find(params[:id])
   end
 
   private
